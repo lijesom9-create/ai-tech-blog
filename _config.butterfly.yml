@@ -1,0 +1,121 @@
+# Butterfly Theme Configuration
+# See: https://butterfly.js.org/posts/4aa8abbe/
+
+# Navigation
+nav:
+  首页: / || fas fa-home
+  归档: /archives/ || fas fa-archive
+  标签: /tags/ || fas fa-tags
+  分类: /categories/ || fas fa-folder-open
+  关于: /about/ || fas fa-heart
+
+# Social Settings
+social:
+  fab fa-github: https://github.com/lijesom9-create || Github
+
+# Code Blocks
+code_blocks:
+  theme: mac
+  macStyle: true
+
+# Read Mode
+readmode: true
+
+# Dark Mode
+darkmode:
+  enable: true
+  button: true
+
+# Avatar
+avatar:
+  img: /img/avatar.png
+  effect: false
+
+# Index
+index_img:
+  default: 
+  random: true
+
+# Cover
+cover:
+  index_enable: true
+  aside_enable: true
+  archives_enable: true
+
+# Post Meta
+post_meta:
+  page:
+    date_type: created
+    date_format: date
+    categories: true
+    tags: true
+    label: true
+  post:
+    date_type: both
+    date_format: relative
+    categories: true
+    tags: true
+    label: true
+
+# Menu
+menu:
+  首页: / || fas fa-home
+  归档: /archives/ || fas fa-archive
+  标签: /tags/ || fas fa-tags
+  分类: /categories/ || fas fa-folder-open
+
+# Social
+social_setting:
+  follow: false
+
+# Footer
+footer:
+  owner:
+    enable: true
+    since: 2026
+  custom_text:
+  copyright: true
+
+# Sidebar
+aside:
+  enable: true
+  hide: false
+  button: true
+  mobile: true
+  position: right
+  display:
+    archive: true
+    tag: true
+    category: true
+  card_author:
+    enable: true
+    description: AI技术博客，分享LLM/Agent/RAG实战经验
+    button:
+      enable: true
+      icon: fab fa-github
+      text: Follow Me
+      link: https://github.com/lijesom9-create
+  card_recent_post:
+    enable: true
+    limit: 5
+    sort: date
+    sort_order:
+  card_categories:
+    enable: true
+    limit: 8
+    expand: none
+    sort_order:
+  card_tags:
+    enable: true
+    limit: 40
+    color: true
+    orderby: random
+    order: 1
+    sort_order:
+  card_archives:
+    enable: true
+    type: monthly
+    format: MMMM YYYY
+    order: -1
+    limit: 8
+    sort_order:
