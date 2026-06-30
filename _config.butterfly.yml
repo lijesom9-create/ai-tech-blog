@@ -119,3 +119,37 @@ aside:
     order: -1
     limit: 8
     sort_order:
+
+# Comments - Giscus
+comments:
+  use: Giscus
+  text: true
+Giscus:
+  repo: lijesom9-create/ai-tech-blog
+  repo_id: 
+  category: Announcements
+  category_id: 
+  mapping: pathname
+  strict: 0
+  reactions_enabled: 1
+  emit_metadata: 0
+  input_position: top
+  theme: preferred_color_scheme
+  lang: zh-CN
+
+# SEO
+SEO:
+  title: AI Tech Blog
+  description: AI技术博客，涵盖大模型、Agent框架、RAG检索增强生成等前沿技术教程
+  keywords: AI,LLM,Agent,RAG,LangChain,大模型,教程
+  author: lijesom9-create
+
+# Article Number
+article_number:
+  enable: true
+
+# Busuanzi
+busuanzi:
+  site_uv: true
+  site_pv: true
+  page_pv: true

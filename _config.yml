@@ -107,3 +107,15 @@ theme: butterfly
 ## GitHub Actions handles deployment automatically
 deploy:
   type: ''
+
+# Sitemap
+sitemap:
+  path: sitemap.xml
+  rel: true
+
+# Word Count
+wordcount:
+  enable: true
+  post_wordcount: true
+  min2read: true
+  total_wordcount: true
